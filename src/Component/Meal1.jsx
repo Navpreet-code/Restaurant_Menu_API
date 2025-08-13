@@ -121,7 +121,7 @@ export const Meal1 = () => {
             type="text"
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
-            placeholder={`Enter ${searchType}`}
+            placeholder={`Enter Category/Ingredients/Area`}
             className="border-3 border-black bg-gray-200 rounded-lg w-70 px-4 py-3 focus:ring-2 focus:ring-red-500 focus:outline-none"
           />
           <button
