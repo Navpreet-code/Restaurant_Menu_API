@@ -1,0 +1,81 @@
+@import "tailwindcss";
+/* @plugin "daisyui"; */
+
+/* body{
+    background-color: #0857f5;
+    color: white;
+    padding: 40px;
+    font-family: sans-serif;
+    text-align: center;
+} */
+
+.r1{
+    font-size: 38px;
+    color: rgb(90, 24, 245);
+    text-align: center;
+}
+
+.c1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+span{
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.colored{
+    color: gold;
+}
+
+.unColor{
+    color: black;
+}
+
+.head{
+    color: blue;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom:8px ;
+    text-align: center;
+    padding-top:18px;
+}
+
+.b1{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 9px;
+    padding: 8px 16px;
+}
+
+.b1:hover{
+    background-color: #10d441;
+}
+
+.price{
+    padding-top:3px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dv1{
+    border: 3px solid black;
+}
+
+.dt{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.t1{
+    color: blue;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    padding-top: 2px;
+}
+
